@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#img-div {
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 16px;
+}
+
+#tribute-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* New styles for the Achievements section */
+#tribute-info h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tribute-info ul li {
+    margin-bottom: 10px;
+}
+
+#tribute-info ul li strong {
+    font-weight: bold;
+}
+
+#tribute-info ul li ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#tribute-link:hover {
+    background-color: #005b9f;
+}
